@@ -212,77 +212,12 @@ const BigCard = () => {
           </div>
         </div>
       </div>
+
       <div>
-        <div className="flex justify-between ">
-          <h2 className="text-neutral-600 text-base font-semibold font-Inter leading-tight">
-            Top Collections
-          </h2>
-          <button className="flex items-center gap-[11px] text-right text-neutral-600 text-xs font-semibold font-Inter leading-tight">
-            View All{" "}
-            <span>
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M13.167 7.81706L3.16699 7.81706"
-                  stroke="#130F26"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M9.13379 3.80083L13.1671 7.81683L9.13379 11.8335"
-                  stroke="#130F26"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>
-          </button>
-        </div>
-        <div>
-          <CardMap />
-        </div>
-        <div className="flex justify-between pt-[31px]">
-          <h2 className="text-neutral-600 text-base font-semibold font-Inter leading-tight">
-            Trendings NFTs
-          </h2>
-          <button className="flex items-center gap-[11px] text-right text-neutral-600 text-xs font-semibold font-Inter leading-tight">
-            Marketplace{" "}
-            <span>
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M13.167 7.81706L3.16699 7.81706"
-                  stroke="#130F26"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M9.13379 3.80083L13.1671 7.81683L9.13379 11.8335"
-                  stroke="#130F26"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>
-          </button>
-        </div>
-        <div>
-          <Tranding />
-        </div>
+        <CardMap />
+      </div>
+      <div>
+        <Tranding />
       </div>
     </div>
   );
