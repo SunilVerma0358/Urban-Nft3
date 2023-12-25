@@ -45,6 +45,11 @@ function App() {
         />{" "} <
         Route path = "/SmallCard"
         element = { < SmallCard / > }
+        />{" "} <
+        Route path = "/About"
+        element = { < SmallCard /
+            >
+        }
         />{" "} < /
         Routes > { " " } <
         /div>{" "} < /
